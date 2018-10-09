@@ -3,20 +3,32 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,600" rel="stylesheet">
         <script src="scripts.js"></script>
         <title>Weather Hub - Your #1 Weather Web App</title>
     </head>
 
     <body>
         <header>
-            <h1>Weather Hub</h1>
+            <h1 id = "title"><span>Weather</span> Hub</h1>
         </header>
         <section id = "container">
-            <table id = "weather-cont">
-                <tr>
-                    <th></th>
-                </tr>
-            </table>
+            <div id = "weatherCont">
+                <div id = "tempCont">
+                    <h1 id = "temp">
+                        76<span>°F</span>
+                    </h1>
+                </div>
+                <table id = "weather">
+                    <tr>
+                        <th></th>
+                    </tr>
+                </table>
+                <div id = "cityInfoCont">
+                        <h2 id = "cityState"><span>Dallas</span>, Texas</h2>
+                        <p id = "cityTime">FRIDAY - 11:45 PM</p>
+                </div>
+            </div>
         </section>
     </body>
 
